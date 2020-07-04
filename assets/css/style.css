@@ -76,3 +76,31 @@ h4 {
 .project-names {
     color: rgb(240, 102, 12);
 }
+
+.footer-border {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 60px 0;
+}
+
+.footer-bodys {
+    margin-bottom: 2rem;
+}
+
+.footer-bodys a {
+    color: #000 !important;
+}
+
+.footer-bodys h6 {
+    font-weight: 700;
+}
+
+.footer-bodys ul {
+    list-style: none;
+}
+
+.footer-bodys ul li {
+    padding-bottom: 5px;
+}
