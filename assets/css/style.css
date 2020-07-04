@@ -43,19 +43,34 @@ h4 {
 .banner {
     margin-top: 60px;
     float: left;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
 }
 
 #about-section {
     float: left;
-    padding: 60px 0;
+    padding: 100px 0;
     width: 100%
+}
+
+.about-content {
+    padding-left: 40px;
+}
+
+@media(max-width: 767px) {
+    .about-content {
+        padding-left: 0;
+    }
 }
 
 #ventures-section {
     background-color: rgb(242, 243, 247);
     float: left;
     width: 100%;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .card-image {
@@ -70,7 +85,7 @@ h4 {
 .projects-section {
     float: left;
     width: 100%;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .project-names {
@@ -101,6 +116,36 @@ h4 {
     list-style: none;
 }
 
+@media(max-width: 768px) {
+    .footer-bodys ul {
+        padding-left: 0;
+    }
+}
+
 .footer-bodys ul li {
     padding-bottom: 5px;
+}
+
+.copy-right {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.copy-right ul {
+    list-style: none;
+}
+
+.copy-right ul li {
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0px 10px;
+}
+
+.copy-right ul li a {
+    color: #000 !important;
+}
+
+.copy-right ul li:last-child {
+    border-right: 0 !important
 }
