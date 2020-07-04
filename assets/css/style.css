@@ -12,6 +12,13 @@ body {
     color: #212529;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
 
 /* Main Css */
 
@@ -24,9 +31,20 @@ body {
 .btn-style1 {
     color: #fff;
     background-color: rgb(240, 102, 12);
+    padding: .3rem 1.2rem !important;
+}
+
+.btn-style1:hover {
+    background-color: rgb(240, 102, 12, 0.83);
 }
 
 .banner {
     margin-top: 60px;
     float: left;
+}
+
+#about-section {
+    float: left;
+    padding: 60px 0;
+    width: 100%
 }
