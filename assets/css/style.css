@@ -1,0 +1,22 @@
+/*1- global css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+    color: #212529;
+}
+
+
+/* Main Css */
+
+.bg-info {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
