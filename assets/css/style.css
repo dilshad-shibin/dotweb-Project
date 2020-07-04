@@ -66,3 +66,13 @@ h4 {
     width: 50px;
     height: 50px;
 }
+
+.projects-section {
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.project-names {
+    color: rgb(240, 102, 12);
+}
