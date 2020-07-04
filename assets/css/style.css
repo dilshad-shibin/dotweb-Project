@@ -25,7 +25,9 @@ h4 {
 .bg-info {
     position: fixed;
     width: 100%;
-    z-index: 1
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05) !important;
+    padding: 10px 0;
 }
 
 .btn-style1 {
@@ -47,4 +49,20 @@ h4 {
     float: left;
     padding: 60px 0;
     width: 100%
+}
+
+#ventures-section {
+    background-color: rgb(242, 243, 247);
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.card-image {
+    padding: 10px 0 5px 10px;
+}
+
+.card-image img {
+    width: 50px;
+    height: 50px;
 }
