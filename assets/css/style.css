@@ -18,5 +18,15 @@ body {
 .bg-info {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1
+}
+
+.btn-style1 {
+    color: #fff;
+    background-color: rgb(240, 102, 12);
+}
+
+.banner {
+    margin-top: 60px;
+    float: left;
 }
